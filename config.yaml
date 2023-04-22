@@ -1,17 +1,12 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.* OR cat:eess.* cat:stat.*'
+subject: "cat:cs.* OR cat:eess.* cat:stat.*"
 
 # 検索キーワード
 keywords:
-        anomaly detection: 3
-        auto encoder: 2
-        autoencoder: 2
-        GAN: 2
-        Federated Learning: 3
-        Federated: 3
-        trajectory: 3
-        anonymization: 3
-
+  Federated Learning: 3
+  Federated: 3
+  vertical federated learning: 3
+  vertically partitioned data: 3
 
 # 通知の閾値
 score_threshold: 3
