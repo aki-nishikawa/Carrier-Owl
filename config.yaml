@@ -1,11 +1,17 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:cs.* OR cat:eess.* cat:stat.*'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+        anomaly detection: 3
+        auto encoder: 2
+        autoencoder: 2
+        GAN: 2
+        Federated Learning: 3
+        Federated: 3
+        trajectory: 3
+        anonymization: 3
+
 
 # 通知の閾値
-score_threshold: 0
+score_threshold: 3
